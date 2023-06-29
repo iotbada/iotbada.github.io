@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: red;
+  color: red;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: red;
+  color: red;
+}
+
+h4 {
+  font-size: 20px;
+  letter-spacing: -1px;
+  color: red;
+}
+
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list .active {
+  background-color: skyblue;
+  color: white;
+}
+
+.sh-list2 li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list2 :hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.alert-box-green, .alert-box-blue, .alert-box-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: lightgreen;
+  color: darkblue;
+}
+
+.alert-box-yellow {
+  background-color: lightyellow;
+}
+
+.alert-box-blue {
+  background-color: skyblue;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.row .col-6 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  border: 1px solid #eee;
+  background-color: #f9f6f6;
+}
+
+.row .col-4 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border: 1px solid #eee;
+  background-color: #f9f6f6;
+}
+
+.divv, .div-blue, .div-green, .div-red {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.div-red {
+  background-color: red;
+}
+
+.div-green {
+  background-color: green;
+}
+
+.div-blue {
+  background-color: blue;
+}
+
+.btn-blue, .btn-green, .btn-red {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-red {
+  color: red;
+}
+
+.btn-green {
+  color: green;
+}
+
+.btn-blue {
+  color: blue;
+}
+
+.background {
+  background-color: #2a4cb2;
+  font-size: 14px;
+}
+
+.box {
+  color: #eeeeee;
+  font-size: 18px;
+}
+
+.main-bg h4 {
+  font-size: 16px;
+}
+
+.main-bg button {
+  color: red;
+}
+
+.main-bg {
+  width: 100px;
+}
+.main-bg h4 {
+  font-size: 16px;
+}
+.main-bg button {
+  color: red;
+}/*# sourceMappingURL=test.css.map */

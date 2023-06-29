@@ -1,0 +1,637 @@
+@font-face {
+	font-family: '이쁜폰트';
+/*	src: url(../font/NanumSquare-master/NanumSquareR.ttf)*/
+	src: url(../font/NanumSquare-master/NanumSquareR.woff)
+}
+
+@font-face {
+	font-family: '이쁜폰트';
+	font-weight: 800;
+	src: url(../font/NanumSquare-master/NanumSquareB.woff)
+}
+
+
+div,input,textarea {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+/*	font-family: 'gulim', 'dotum', 'arial';*/
+	font-family: '이쁜폰트';
+	font-weight: 800;
+}
+
+/*폰트를 부드럽게 처리하려면 회전시킴*/
+p,h6,h5,h4,h3,h2,h1,span {
+	transform: rotate(0.03deg)
+}
+
+
+.profile{
+	width: 100px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.title{
+	text-align: center; 
+	font-size: 16px;
+}
+
+.content {
+	text-align: center;
+}
+
+#special {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.box {
+	width: 200px;
+	background-color: cadetblue;
+	margin:  10px;
+	padding: 40px;
+/*	border: 4px solid black;*/
+	border-radius: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 10px;
+	font-family: gulim;
+	color: white;
+	box-shadow: 5px 5px blue;
+/*	box-shadow: 10px 5px 5px blue;*/
+}
+
+.container {
+	width: 800px;
+/*	display: block;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: aquamarine;
+}
+
+.left-menu {
+	width: 20%;
+	height: 400px;
+	background: cornflowerblue;
+/*	float: left;*/
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.right {
+	width: 80%;
+	height: 400px;
+	background: coral;
+/*	float: left;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+/*	clear: both;*/
+}
+
+.headline {
+	width: 75%;
+/*	width: 600px;*/
+	height: 235px;
+	background-color: wheat;
+/*	border: 5px solid blue;*/
+	float: left;
+}
+
+.pic-box {
+	width: 25%;
+/*	width: 180px;*/
+	height: 235px;
+	background-color: aquamarine;
+/*	border: 5px solid blue;*/
+	float: right;
+}
+.head1 {
+	width: 98%;
+/*	width: 575px;*/
+	height: 70px;
+	padding-left: 10px;*/
+	background-color: floralwhite;
+	border: 1px solid blue;*/
+	clear: both;
+}
+
+.head2 {
+	width: 98%;
+/*	width: 575px;*/
+	height: 140px;
+	padding: 10px;
+	background-color: coral;
+/*	border: 2px solid blue;*/
+	clear: both;
+}
+
+.top {
+	width: 800px;
+	height: 50px;	
+	background-color: blueviolet;
+/*	border: 2px solid blue;*/
+}
+
+.blog-content {
+	width: 80%;
+	height: 200px;
+/*	background: #eee;*/
+	float: left;
+}
+
+.blog-img {
+	width: 20%;
+	height: 200px;
+/*	background: yellow;*/
+	float: left;
+}
+
+.blog-profile {
+	width: 50px;
+	display: block;
+	float: left;
+}
+
+.blog-name {
+	float: left;
+}
+
+.navbar {
+	
+	
+}
+
+
+.navbar a {
+	font-size: 16px;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.navbar li {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	background: #eee;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.main-background {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/shoes.jpg);
+/*	background-size: conver;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	background-attachment: fixed;*/
+/*	filter: brightness(70%)*/
+	padding: 1px;
+}
+
+.main-title {
+	color: white;
+	font-size: 80px;
+	margin-top: 100px;
+}
+
+.main-msg1 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg2 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg3 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg4 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg5 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-button {
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	margin: auto;
+	text-align: center;
+	display: block;
+	background: white;
+	color: black;
+/*	position: relative;*/
+	top: 10px;
+	z-index: 42;
+}
+
+.main-box {
+	width: 80%;
+	max-width: 600px;
+	height: 100px;
+	background-color: rgba(250, 230, 250, 1);
+/*	margin:  -30px;*/
+	padding: 20px;
+/*	border: 4px solid black;*/
+	border-radius: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 15px;
+	font-family: gulim;
+	color: black;
+	text-align: center;
+	position: relative;
+	z-index: 23;
+	box-sizing: border-box;
+	top: -40px;
+/*	box-shadow: 5px 5px blue;*/
+/*	box-shadow: 10px 5px 5px blue;*/
+}
+
+.form-background {
+	background: black;
+	padding: 30px;
+}
+
+.form-white {
+	background: #cff;
+	padding: 30px;	
+	width: 80%;
+	max-width: 600px;
+	margin: auto;	
+}
+
+.form-input {
+	width: 100%;
+	padding: 10px;
+	font-size: :20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.w-50 {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.w-100 {
+	width: 100%;
+	padding: 10px;	
+}
+
+.form-long {
+	height: 100px;
+}
+
+.yellow-button {
+	padding: 10px;
+	background: yellow;
+	display: block;
+	margin-left: auto;
+}
+
+.form-right {
+	padding: 0px;	/* 가운데 맞추기 위해서는	있어야됨*/
+}
+
+td,th {
+/*	border: 1px solid black;*/
+}
+
+.cart-table td, .cart-table th {
+	padding: 15px;
+	border-bottom: 1px solid #c2d3de;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.table-box {
+	background: #cff;
+	padding: 30px;	
+	width: 80%;
+	max-width: 600px;
+	margin: auto;	
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.table-chart {
+	width: 80%;
+	background-color: white;
+/*	padding-left: 30px;*/
+}
+
+
+.cart-inner {
+	background-color: white;
+	border-color: whitesmoke;
+	border-radius: 5px;
+}
+
+.cart-outter {
+	background-color: aquamarine;
+}
+
+.choose {
+	background-color: midnightblue;
+	color: white;
+	margin: auto;
+}
+
+.cart-background {
+	width: 100%;
+	background-color: #c2d3de;
+	padding: 30px;
+}
+
+.cart-table {
+	width: 100%
+	max-width: 700px;
+/*	margin: auto;*/
+	background-color: white;
+	border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+	width: 400px;
+}
+
+.cell-long {
+	width: 700px;
+}
+
+.btn {
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: coral;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: chocolate;
+}
+
+.btn:focus {
+ background-color: grey;
+}
+
+.btn:active {
+	background-color: brown;
+	border: 2px solid black;
+}
+
+
+
+.custom-link {
+	text-decoration: none;
+}
+
+.custom-link:link {
+	color: violet;
+}
+
+.custom-link:visited {
+	color: black;
+}
+
+.input-test {
+	font-size: 20px;
+}
+
+.input-test:focus {
+/*	border: 2px solid red;*/
+	border-bottom: 2px solid red;
+}
+
+/*OOCSS 방식 (Object Oriented CSS)*/
+.main-btn {
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+.bg-red {
+	background-color: red;
+}
+.bg-blue {
+	background-color: blue;	
+}
+
+/*Utility class*/
+.f-small {
+	font-size: 12px;
+}
+.f-mid {
+	font-size: 16px;
+}
+.f-lg {
+	font-size: 20px;
+}
+
+    
+.product-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-container div {
+    float: left;
+    width: 25%;
+		text-align: center;	
+}
+
+.product-container i {
+	background-color: burlywood;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	padding-top: 25px;
+	box-sizing: border-box;
+	color: white;
+	margin-top: 40px;
+}
+
+
+.flex-item {
+	width: 300px;
+	height: 100px;
+	background-color: grey;
+	margin: 5px;	
+}
+
+.flex-container {
+	display: flex;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+/*	flex-wrap: wrap;*/
+/*	flex-wrap: nowrap;*/
+
+/*	justify-content: center;*/
+/*	justify-content: flex-end;*/
+/*	justify-content: flex-start;*/
+/*	justify-content: space-between;*/
+/*	justify-content: space-around;*/
+/*	justify-content: space-evenly;*/
+/*	flex-direction: column;*/
+/*	flex-direction: column-reverse;*/
+/*	flex-direction: row;*/
+/*	flex-direction: row-reverse;*/
+
+}
+
+.little {
+	background-color: #f837c4;
+}
+
+.nav-container {
+	display: flex;
+	height: 40px;
+	align-items: center;
+	background-color: #cd16dd;
+	color: white;
+	padding: 10px;
+}
+
+.nav-item {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.test {
+	width: 20rem;
+	height: 50vh;
+	background: grey;
+}
+
+.flex-box {
+	display: flex;
+	flex-wrap: wrap;
+/*		align-items: center;*/
+/*		justify-content: space-around;*/
+	width:1400px;
+	height: 200px;
+	background-color: cadetblue;
+	text-align: center;
+}
+
+.flex-cell {
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	text-align: centerc;
+/*
+	margin-left: auto;
+	margin-right: auto;
+*/
+	background-color: white;
+}
+
+/* 반응형 웹 */
+@media screen and (max-width: 1200px) {
+	.main-title {
+		font-size: 30px;
+	}
+	/* Class 몇개적든, 스타일 뭐 넣든 여러개 집어넣어두 됨  */
+	.product-container div {
+		width: 50%;
+	}
+	.product-container {
+		max-width: 600px;
+	}	
+	.nav-item {
+		font-size: 20px;
+	}
+	.flex-box {
+	width:1400px;
+	height: 200px;
+	background-color: cadetblue;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.main-title {
+		font-size: 30px;
+	}
+	.product-container div {
+		width: 100%;
+	}
+	.nav-item {
+		font-size: 20px;
+	}
+	.flex-box {
+	width:800px;
+	height: 300px;
+	background-color: coral;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-title {
+		font-size: 20px;
+	}
+	.product-container div {
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.main-title {
+		font-size: 30px;
+	}
+	/* Class 몇개적든, 스타일 뭐 넣든 여러개 집어넣어두 됨  */
+	.nav-item {
+		font-size: 20px;
+	}
+	.flex-box {
+	width:400px;
+	height: 500px;
+	background-color: fuchsia;
+	}
+}
+
+

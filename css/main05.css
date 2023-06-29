@@ -1,0 +1,40 @@
+.profile{
+	width: 100px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.title{
+	text-align: center; 
+	font-size: 16px;
+}
+
+.content {
+	text-align: center;
+}
+/*
+
+#special {
+	text-align: center;
+}
+*/
+/*
+p {
+	text-align: center;
+}
+*/
+
+.box {
+	width: 200px;
+	background-color: cadetblue;
+	margin:  10px;
+	padding: 40px;
+/*	border: 4px solid black;*/
+	border-radius: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 10px;
+	font-family: gulim;
+	color: white;
+	box-shadow: 10px 5px 5px blue;
+}

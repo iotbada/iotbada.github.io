@@ -1,0 +1,243 @@
+.profile{
+	width: 100px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.title{
+	text-align: center; 
+	font-size: 16px;
+}
+
+.content {
+	text-align: center;
+}
+/*
+
+#special {
+	text-align: center;
+}
+*/
+/*
+p {
+	text-align: center;
+}
+*/
+
+.box {
+	width: 200px;
+	background-color: cadetblue;
+	margin:  10px;
+	padding: 40px;
+/*	border: 4px solid black;*/
+	border-radius: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 10px;
+	font-family: gulim;
+	color: white;
+	box-shadow: 5px 5px blue;
+/*	box-shadow: 10px 5px 5px blue;*/
+}
+
+.container {
+	width: 800px;
+/*	display: block;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background: aquamarine;
+}
+
+.left-menu {
+	width: 20%;
+	height: 400px;
+	background: cornflowerblue;
+/*	float: left;*/
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.right {
+	width: 80%;
+	height: 400px;
+	background: coral;
+/*	float: left;*/
+	display: inline-block;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+	clear: both;
+}
+
+.headline {
+	width: 75%;
+/*	width: 600px;*/
+	height: 235px;
+	background-color: wheat;
+/*	border: 5px solid blue;*/
+	float: left;
+}
+
+.pic-box {
+	width: 25%;
+/*	width: 180px;*/
+	height: 235px;
+	background-color: aquamarine;
+/*	border: 5px solid blue;*/
+	float: right;
+}
+.head1 {
+	width: 98%;
+/*	width: 575px;*/
+	height: 70px;
+	padding-left: 10px;*/
+	background-color: floralwhite;
+	border: 1px solid blue;*/
+	clear: both;
+}
+
+.head2 {
+	width: 98%;
+/*	width: 575px;*/
+	height: 140px;
+	padding: 10px;
+	background-color: coral;
+/*	border: 2px solid blue;*/
+	clear: both;
+}
+
+.top {
+	width: 800px;
+	height: 50px;	
+	background-color: blueviolet;
+/*	border: 2px solid blue;*/
+}
+
+.blog-content {
+	width: 80%;
+	height: 200px;
+/*	background: #eee;*/
+	float: left;
+}
+
+.blog-img {
+	width: 20%;
+	height: 200px;
+/*	background: yellow;*/
+	float: left;
+}
+
+.blog-profile {
+	width: 50px;
+	display: block;
+	float: left;
+}
+
+.blog-name {
+	float: left;
+}
+
+.navbar a {
+	font-size: 16px;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.navbar li {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	background: #eee;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.main-background {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/shoes.jpg);
+/*	background-size: conver;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+/*	background-attachment: fixed;*/
+/*	filter: brightness(70%)*/
+	padding: 1px;
+}
+
+.main-title {
+	color: white;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+.main-msg1 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg2 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg3 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg4 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-msg5 {
+	color: aliceblue;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+.main-button {
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	margin: auto;
+	text-align: center;
+	display: block;
+	background: white;
+	color: black;
+	position: relative;
+	top: 10px;
+}
+
+.main-box {
+	width: 400px;
+	height: 150px;
+	background-color: rgba(250, 230, 250, 1);
+	margin:  -30px;
+	padding: 20px;
+/*	border: 4px solid black;*/
+	border-radius: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 15px;
+	font-family: gulim;
+	color: black;
+	text-align: center;
+/*	box-shadow: 5px 5px blue;*/
+/*	box-shadow: 10px 5px 5px blue;*/
+}
