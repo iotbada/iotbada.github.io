@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+	<!--  Font Awesome 설치방법 2. 직접파일다운 -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css" />
+	
+	
+<!--
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+-->
+<!--  Font Awesome 설치방법 1. CDN-->
+<!--  간편함, 다운로드속도 빠를수 있음-->
+<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+	
+</head>
+
+<body style="margin: 0px">
+
+
+<!------------------------->
+<!--
+크롬 개발자도구 에서 화살표 선택하구
+해당 삼각형 누르면 나옴 -webkit-file-upload-button
+요거 복사해옴
+<input type="button" value="파일 선택" pseudo="-webkit-file-upload-button" id="file-upload-button" aria-hidden="true">
+-->
+<!--38 -->
+	<input type="file" style="background: skyblue">
+	<br>
+	<br>
+	<input type="file" style="color: red">
+	<br>
+	<br>
+	<input type="file">	
+	<style>
+		input[type=file]::-webkit-file-upload-button {
+			background: skyblue;
+			border: none;
+			color: blue;
+		}
+	</style>
+	<br>
+	<br>
+	
+<!--	38-->
+	<input type="range">
+	<style>
+		input[type=range] {
+			appearance: none;		
+		}
+		input[type=range]::-webkit-slider-thumb {
+			appearance: none;
+			background: red;
+			width: 50px;
+			height: 50px;
+			
+		}
+	</style>
+	
+	<br>
+	<br>
+	
+	<!--	38-->
+	<progress value="0.5"></progress>
+	<input type="range">
+	
+	<br>
+	<br>
+
+<!--구글 검색해서 progress 방식 젤 간단-->
+<!--
+HTML5에서 추가되었습니다.
+IE는 버전 10부터 지원합니다.
+-->
+<progress value="0.5"></progress>
+
+<!--38 progress 예제 숙제-->
+
+<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="70"> 70% </progress>
+
+		<style>
+			#jb {
+				width: 100%;
+				height: 50px;
+			}
+		</style>
+		<script>
+			function jbFunc() {
+				document.getElementById( 'jb' ).value = '80';
+			}
+		</script>
+		
+		<div>
+			<progress value="20" max="100" id="jb"></progress>
+		</div>
+		<button onclick="jbFunc()">Click</button>
+
+<!--절취선-->
+
+
+	<!-- Bootstrap CSS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body></html>
